@@ -106,10 +106,17 @@
     font-weight: 1;
 }
 
-body{
+#bodyacercaDeNosotros{
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    background-image: url("../img/fondoPagina2.jpg");
+}
+#bodyDondeEstamos{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 570px;
     background-image: url("../img/fondoPagina2.jpg");
 }
 
@@ -317,7 +324,7 @@ body{
     #posicionTextoDondeEstamos{
         position: relative;
         width: 250px;
-        height: 500px;
+        height: 420px;
         border: 2px solid gray;
         top: -0px;
         left: 0px;
