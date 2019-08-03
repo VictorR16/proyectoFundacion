@@ -108,7 +108,6 @@
 
 body{
     padding-bottom: 30px;
-    padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
     background-image: url("../img/fondoPagina2.jpg");
@@ -118,12 +117,12 @@ body{
 @media Screen and (max-width:720px)
 {
     #menuPrincipal{
-        width: 300px;
+        width: 200px;
         height: 50px;
         background: aquamarine;
         position: relative;
-        top:-30px;
-        left: 0px;
+        top:-0px;
+        left: 18px;
         border: 3px solid gray;
     }
 
@@ -131,7 +130,7 @@ body{
         position: relative;
         top: 3px;
         bottom: 0px;
-        left: 85px;
+        left: 55px;
         width: 18%;
         height: 80%;
         border-radius: 150px;
@@ -143,7 +142,7 @@ body{
     
     #homeImagen{
         position: relative;
-        left: -55px;
+        left: -35px;
         top: 3px;
         bottom: 3px;
         width: 18%;
@@ -155,7 +154,7 @@ body{
     #eventosImagen{
         position: relative;
         top: 3px;
-        left: 35px;
+        left: 15px;
         bottom: 3px;
         width: 18%;
         height: 80%;
@@ -167,7 +166,7 @@ body{
         position: relative;
         top: 3px;
         bottom: 3px;
-        left: 45px;
+        left: 20px;
         width: 18%;
         height: 80%;
         border-radius: 150px;
@@ -175,20 +174,20 @@ body{
     }
     #quienesSomosTitulo{
         position: relative;
-        width: 400px;
+        width: 210px;
         height: 10%;
-        left: -50px;
-        top:-30px;
+        left: 0px;
+        top:-10px;
         text-align: center;
         font: oblique bold 150% cursive;
     }
     
     #divImagenQuienesSomos{
         position: relative;
-        width: 1000px;
-        height: 300px;
-        top:40px;
-        left: 148px;
+        width: 220px;
+        height: 220px;
+        top:-20px;
+        left: 5px;
         border: 5px solid black;
         
     }
@@ -203,19 +202,19 @@ body{
     
     #referenciaImagenQuienesSomos{
         position: relative;
-        width: 500px;
+        width: 400px;
         height: 90px;
         top:5px;
-        right: -643px;
+        left:-10px;
         
     }
     
     #informacionQuienesSomos{
         position: relative;
-        top:100px;
+        top:50px;
         text-align: center;
-        width: 750px;
-        left:250px;
+        width: 250px;
+        left:0px;
         padding-bottom: 50px;
     }
 
