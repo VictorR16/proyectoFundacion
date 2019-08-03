@@ -113,3 +113,110 @@ body{
     padding-right: 30px;
     background-image: url("../img/fondoPagina2.jpg");
 }
+
+
+@media Screen and (max-width:720px)
+{
+    #menuPrincipal{
+        width: 300px;
+        height: 50px;
+        background: aquamarine;
+        position: relative;
+        top:-30px;
+        left: 0px;
+        border: 3px solid gray;
+    }
+
+    #acercaDeNosotrosImagen{
+        position: relative;
+        top: 3px;
+        bottom: 0px;
+        left: 85px;
+        width: 18%;
+        height: 80%;
+        border-radius: 150px;
+        border: 2px solid green;
+        
+    
+        
+    }
+    
+    #homeImagen{
+        position: relative;
+        left: -55px;
+        top: 3px;
+        bottom: 3px;
+        width: 18%;
+        height: 80%;
+        border-radius: 150px;
+        border: 2px solid green;
+    }
+    
+    #eventosImagen{
+        position: relative;
+        top: 3px;
+        left: 35px;
+        bottom: 3px;
+        width: 18%;
+        height: 80%;
+        border-radius: 150px;
+        border: 2px solid green;
+    }
+    
+    #ubicacionImagen{
+        position: relative;
+        top: 3px;
+        bottom: 3px;
+        left: 45px;
+        width: 18%;
+        height: 80%;
+        border-radius: 150px;
+        border: 2px solid green;
+    }
+    #quienesSomosTitulo{
+        position: relative;
+        width: 400px;
+        height: 10%;
+        left: -50px;
+        top:-30px;
+        text-align: center;
+        font: oblique bold 150% cursive;
+    }
+    
+    #divImagenQuienesSomos{
+        position: relative;
+        width: 1000px;
+        height: 300px;
+        top:40px;
+        left: 148px;
+        border: 5px solid black;
+        
+    }
+    #imagenQuienesSomos{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        
+    
+    
+    }
+    
+    #referenciaImagenQuienesSomos{
+        position: relative;
+        width: 500px;
+        height: 90px;
+        top:5px;
+        right: -643px;
+        
+    }
+    
+    #informacionQuienesSomos{
+        position: relative;
+        top:100px;
+        text-align: center;
+        width: 750px;
+        left:250px;
+        padding-bottom: 50px;
+    }
+
+}
