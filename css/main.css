@@ -4,7 +4,7 @@
     background: aquamarine;
     position: relative;
     top:40px;
-    left: 1010px;
+    left: 1000px;
     border: 3px solid gray;
 
 
@@ -104,4 +104,12 @@
 .resaltarRojo{
     color:  red;
     font-weight: 1;
+}
+
+body{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url("../img/fondoPagina2.jpg");
 }
