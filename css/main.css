@@ -289,4 +289,77 @@ body{
         padding-bottom: 50px;
     }
 
+
+
+    #dondeEstamosUbicadosTitulo{
+        position: relative;
+        width: 500px;
+        height: 10%;
+        left: -130px;
+        top:10px;
+        text-align: center;
+        font: oblique bold 100% cursive;
+    }
+    
+    #posicionMapa{
+        position: relative;
+        width: 250px;
+        height: 200px;
+        border: 2px solid black;
+    }
+    
+    #mapaImagen{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #posicionTextoDondeEstamos{
+        position: relative;
+        width: 250px;
+        height: 500px;
+        border: 2px solid gray;
+        top: -0px;
+        left: 0px;
+        background-color:#CCEEFF;
+        opacity:0.7; 
+    }
+    
+    #direccionTituloDondeEstamos{
+        position: relative;
+        width: 100px;
+        height: 30px;
+        left: 15px;
+        top:0px;
+        text-align: center;
+        font: oblique bold 120% cursive; 
+    }
+    #direccionContenidoDondeEstamos{
+        position: relative;
+        width: 230px;
+        height: 200px;
+        left: 15px;
+        top:-15px;
+        text-align: center;
+    }
+    
+    #numeroTituloDondeEstamos{
+        position: relative;
+        width: 250px;
+        height: 30px;
+        left: -5px;
+        top:-80px;
+        text-align: center;
+        font: oblique bold 120% cursive; 
+    }
+    #numeroContenidoDondeEstamos{
+        position: relative;
+        width: 230px;
+        height: 200px;
+        left: 15px;
+        top:-95px;
+        text-align: center;
+        
+    }
+
 }
