@@ -203,7 +203,7 @@
     position: relative;
     width: 500px;
     height: 10%;
-    left: 330px;
+    left: 380px;
     top:-20px;
     text-align: center;
     font: oblique bold 200% cursive;
@@ -212,25 +212,73 @@
 #eventosUbicacion{
     position: relative;
     width: 1100px;
-    height: 700px;
-    border: 2px solid black;
+    height: 400px;
     left: 90px;
+    padding: 3px 10px;
+    border: rgb(18, 12, 97) 5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #lugarEvento1{
     position: relative;
-    width: 900px;
+    width: 920px;
     height: 300px;
-    border: 3px solid green;
     top:50px;
     left: 80px;
+    padding: 3px 10px;
+    border: rgb(0, 253, 0) 5px solid;
+    border-radius: 20px;
 }
 
 #imagenEvento1{
     position: relative;
     width: 500px;
     height: 250px;
+    top: 25px;
+    left: 10px;
 }
+
+#tituloEvento1{
+    position: relative;
+    width: 200px;
+    height: 10px;
+    left: 600px;
+    top:-260px;
+    text-align: center;
+    font: oblique bold 150% cursive;  
+}
+
+#contenidoEvento1{
+    position: relative;
+    width: 350px;
+    height: 230px;
+    left: 530px;
+    top:-260px;
+    text-align: center;
+    background-color:greenyellow;
+    opacity:0.7; 
+    padding: 3px 10px;
+    border: white 5px dashed;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+#posicionEvento1{
+    position: relative;
+    top: 0px;
+    width: 10px;
+    height: 10px;
+    background: red;
+}
+
+#fechaEvento1{
+    position: relative;
+    top: 0px;
+    background: red;
+}
+
 
 
 
