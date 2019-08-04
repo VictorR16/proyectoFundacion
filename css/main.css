@@ -461,6 +461,87 @@
         
     }
 
+    #eventosTitulo{
+        position: relative;
+        width: 200px;
+        height: 10%;
+        left: 0px;
+        top:-20px;
+        text-align: center;
+        font: oblique bold 200% cursive;
+    }
+    
+    #eventosUbicacion{
+        position: relative;
+        width: 310px;
+        height: 800px;
+        top: -20px;
+        left: -15px;
+        padding: 3px 10px;
+        border: rgb(18, 12, 97) 5px double;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    #lugarEvento1{
+        position: relative;
+        width: 280px;
+        height: 700px;
+        top:20px;
+        left: 0px;
+        padding: 3px 10px;
+        border: rgb(0, 253, 0) 5px solid;
+        border-radius: 20px;
+    }
+    
+    #imagenEvento1{
+        position: relative;
+        width: 250px;
+        height: 150px;
+        top: 25px;
+        left: 10px;
+    }
+    
+    #tituloEvento1{
+        position: relative;
+        width: 200px;
+        height: 10px;
+        left: 20px;
+        top:10px;
+        text-align: center;
+        font: oblique bold 100% cursive;  
+    }
+    
+    #contenidoEvento1{
+        position: relative;
+        width: 250px;
+        height: 365px;
+        left: 0px;
+        top:30px;
+        text-align: center;
+        background-color:greenyellow;
+        opacity:0.7; 
+        padding: 3px 10px;
+        border: white 5px dashed;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    
+    }
+    
+    #posicionEvento1{
+        position: relative;
+        top: 0px;
+        width: 10px;
+        height: 10px;
+        background: red;
+    }
+    
+    #fechaEvento1{
+        position: relative;
+        top: 0px;
+        background: red;
+    }
+
 }
 
 
