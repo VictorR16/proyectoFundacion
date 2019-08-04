@@ -135,6 +135,13 @@
     background-image: url("../img/fondoPagina2.jpg");
 }
 
+#bodyHome{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 850px;
+    background-image: url("../img/fondoPagina2.jpg");
+}
 #dondeEstamosUbicadosTitulo{
     position: relative;
     width: 500px;
@@ -288,6 +295,43 @@
     position: relative;
     top: 0px;
     background: red;
+}
+
+#logofundacion{
+    width: 350px;
+    height: 350px;
+    border-radius: 250px;
+    border: 7px solid #000000;
+    margin-left: 50px;
+    margin-top:10px;
+}
+#donaciones{
+    margin-left:  600px;
+    margin-top: -300px;
+    border: 3px solid gray;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+}
+
+#informacionImportanteTitulo{
+    position: relative;
+    width: 500px;
+    height: 10%;
+    left: 330px;
+    top:100px;
+    text-align: center;
+    font: oblique bold 200% cursive;
+}
+
+#muroAvisosTitulo{
+    position: relative;
+    width: 500px;
+    height: 10%;
+    left: 330px;
+    top:100px;
+    text-align: center;
+    font: oblique bold 200% cursive;
 }
 
 
