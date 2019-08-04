@@ -110,7 +110,6 @@
 
 .resaltarRojo{
     color:  red;
-    font-weight: 1;
 }
 
 #bodyacercaDeNosotros{
@@ -139,7 +138,7 @@
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
-    height: 850px;
+    height: 1900px;
     background-image: url("../img/fondoPagina2.jpg");
 }
 #dondeEstamosUbicadosTitulo{
@@ -329,14 +328,120 @@
     width: 500px;
     height: 10%;
     left: 330px;
-    top:100px;
+    top:600px;
     text-align: center;
     font: oblique bold 200% cursive;
 }
 
+#muroAvisosPosicion{
+    position: relative;
+    width: 1100px;
+    height: 580px;
+    border: 2px solid gray;
+    top: 490px;
+    left: 100px;
+}
+
+#aviso1{
+    position: relative;
+    border: 2px solid black;
+    width: 250px;
+    height: 510px;
+    top: 20px;
+    left: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#imagenAviso1{
+    position: relative;
+    top:10px;
+    width: 220px;
+    height: 220px;
+}
+
+#tituloAviso1{
+    position: relative;
+    width: 100px;
+    height: 10%;
+    left: 55px;
+    top:15px;
+    text-align: center;
+    font: oblique bold 120% cursive;
+    font-weight: 900 ;
+    color: red;
+}
+
+#imagenInformacion1{
+    position: relative;
+    width: 10px;
+    height: 10px;
+}
+
+#aviso2{
+    position: relative;
+    border: 2px solid black;
+    width: 360px;
+    height: 510px;
+    top: -490px;
+    left: 350px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#imagenAviso2{
+    position: relative;
+    top:10px;
+    width: 220px;
+    height: 220px;
+}
+
+#tituloAviso2{
+    position: relative;
+    width: 100px;
+    height: 10%;
+    left: 125px;
+    top:15px;
+    text-align: center;
+    font: oblique bold 120% cursive;
+    font-weight: 900 ;
+    color: red;
+}
+
+#aviso3{
+    position: relative;
+    border: 2px solid black;
+    width: 250px;
+    height: 510px;
+    top: -1000px;
+    left: 800px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#imagenAviso3{
+    position: relative;
+    top:10px;
+    width: 220px;
+    height: 220px;
+}
+
+#tituloAviso3{
+    position: relative;
+    width: 100px;
+    height: 10%;
+    left: 75px;
+    top:15px;
+    text-align: center;
+    font: oblique bold 120% cursive;
+    font-weight: 900 ;
+    color: red;
+}
 
 
-
+.rojo{
+    color: red;
+}
 
 @media Screen and (max-width:720px)
 {
