@@ -120,6 +120,13 @@
     background-image: url("../img/fondoPagina2.jpg");
 }
 
+#bodyEventos{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url("../img/fondoPagina2.jpg");
+}
+
 #dondeEstamosUbicadosTitulo{
     position: relative;
     width: 500px;
