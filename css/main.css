@@ -446,7 +446,7 @@
         width: 250px;
         height: 30px;
         left: -5px;
-        top:-80px;
+        top:-50px;
         text-align: center;
         font: oblique bold 120% cursive; 
     }
@@ -455,7 +455,7 @@
         width: 230px;
         height: 200px;
         left: 15px;
-        top:-95px;
+        top:-65px;
         text-align: center;
         font-weight: 900;
         
@@ -465,7 +465,7 @@
         position: relative;
         width: 200px;
         height: 10%;
-        left: 0px;
+        left: 20px;
         top:-20px;
         text-align: center;
         font: oblique bold 200% cursive;
@@ -473,10 +473,10 @@
     
     #eventosUbicacion{
         position: relative;
-        width: 310px;
-        height: 800px;
+        width: 280px;
+        height: 700px;
         top: -20px;
-        left: -15px;
+        left: -35px;
         padding: 3px 10px;
         border: rgb(18, 12, 97) 5px double;
         border-top-left-radius: 20px;
@@ -485,10 +485,10 @@
     
     #lugarEvento1{
         position: relative;
-        width: 280px;
-        height: 700px;
+        width: 260px;
+        height: 630px;
         top:20px;
-        left: 0px;
+        left: -5px;
         padding: 3px 10px;
         border: rgb(0, 253, 0) 5px solid;
         border-radius: 20px;
@@ -509,12 +509,12 @@
         left: 20px;
         top:10px;
         text-align: center;
-        font: oblique bold 100% cursive;  
+        font: oblique bold 120% cursive;  
     }
     
     #contenidoEvento1{
         position: relative;
-        width: 250px;
+        width: 230px;
         height: 365px;
         left: 0px;
         top:30px;
