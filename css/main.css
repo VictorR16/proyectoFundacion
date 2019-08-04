@@ -217,6 +217,23 @@
     left: 90px;
 }
 
+#lugarEvento1{
+    position: relative;
+    width: 900px;
+    height: 300px;
+    border: 3px solid green;
+    top:50px;
+    left: 80px;
+}
+
+#imagenEvento1{
+    position: relative;
+    width: 500px;
+    height: 250px;
+}
+
+
+
 
 @media Screen and (max-width:720px)
 {
@@ -396,4 +413,48 @@
         
     }
 
+}
+
+
+/*Estilo para el fondo de pantalla cuando estamos mostrando la imagen grande*/
+#background {
+    display:none;
+    position: absolute;
+    top:0;left:0;width:100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    background-color: #000;
+    z-index: 1;
+}
+
+/*Estilo para la capa que contendra la imagen grande y la cruz de cerrar*/
+#preview {
+    display: none;
+    position: absolute;
+    width: 960px;
+    height: 370px;
+    border: 1px solid #D8D7D8;
+    background-color: #FFF;
+    box-shadow: 1px 1px 5px #DDD;
+    z-index: 2;
+}
+
+/*Estilo para el contenedor de la imagen grande*/
+#content {
+    width:100%;
+    height:100%;
+}
+
+/*Estilo para el boton cerrar*/
+#close {
+    position: absolute;
+    border:0px solid;
+    width:16px;
+    height:16px;
+    right:2px;
+    top:2px;
+    background:url('../img/close.png');
 }
