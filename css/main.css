@@ -1,0 +1,998 @@
+#menuPrincipal{
+    width: 300px;
+    height: 50px;
+    background: aquamarine;
+    position: relative;
+    top:40px;
+    left: 1000px;
+    border: 3px solid gray;
+
+    
+}
+
+#acercaDeNosotrosImagen{
+    position: relative;
+    top: 3px;
+    bottom: 3px;
+    left: 85px;
+    width: 18%;
+    height: 80%;
+    border-radius: 150px;
+    border: 2px solid green;
+    
+
+    
+}
+
+#homeImagen{
+    position: relative;
+    left: -48px;
+    top: 3px;
+    width: 18%;
+    height: 80%;
+    border-radius: 150px;
+    border: 2px solid green;
+}
+
+#eventosImagen{
+    position: relative;
+    top: 3px;
+    left: 35px;
+    bottom: 3px;
+    width: 18%;
+    height: 80%;
+    border-radius: 150px;
+    border: 2px solid green;
+}
+
+#ubicacionImagen{
+    position: relative;
+    top: 3px;
+    bottom: 3px;
+    left: 45px;
+    width: 18%;
+    height: 80%;
+    border-radius: 150px;
+    border: 2px solid green;
+}
+#quienesSomosTitulo{
+    position: relative;
+    width: 400px;
+    height: 10%;
+    left: 470px;
+    top:-35px;
+    text-align: center;
+    font: oblique bold 200% cursive;
+}
+
+#divImagenQuienesSomos{
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    top:-40px;
+    left: 148px;
+    border: black 3px solid;
+    border-radius: 30px;
+    
+}
+#imagenQuienesSomos{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+
+
+}
+
+#referenciaImagenQuienesSomos{
+    position: relative;
+    width: 500px;
+    height: 90px;
+    top:5px;
+    right: -643px;
+    
+}
+
+#informacionQuienesSomos{
+    position: relative;
+    top:20px;
+    text-align: center;
+    width: 750px;
+    height: 200px;
+    left:250px;
+    padding-bottom: 50px;
+    background-color:rgba(128, 128, 128, 0.514);
+    opacity:0.9; 
+    border: 1px double black;
+    border-radius: 20px;
+
+}
+
+.resaltarRojo{
+    
+    color: red !important;
+}
+
+#bodyacercaDeNosotros{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 850px;
+    background-image: url("../img/fondoPagina2.jpg");
+}
+#bodyDondeEstamos{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 570px;
+    background-image: url("../img/fondoPagina2.jpg");
+}
+
+#bodyEventos{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url("../img/fondoPagina2.jpg");
+}
+
+#bodyHome{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 2150px;
+    background-image: url("../img/fondoPagina2.jpg");
+}
+#dondeEstamosUbicadosTitulo{
+    position: relative;
+    width: 500px;
+    height: 10%;
+    left: 330px;
+    top:-30px;
+    text-align: center;
+    font: oblique bold 200% cursive;
+}
+
+#posicionMapa{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+#mapaImagen{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+#posicionTextoDondeEstamos{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid gray;
+    top: -405px;
+    left: 850px;
+    background-color:#CCEEFF;
+    opacity:0.7; 
+    border-radius: 40px;
+}
+
+#direccionTituloDondeEstamos{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    left: 15px;
+    top:0px;
+    text-align: center;
+    font: oblique bold 120% cursive; 
+}
+#direccionContenidoDondeEstamos{
+    position: relative;
+    width: 350px;
+    height: 200px;
+    left: 15px;
+    top:-15px;
+    text-align: center;
+}
+
+#numeroTituloDondeEstamos{
+    position: relative;
+    width: 250px;
+    height: 30px;
+    left: -5px;
+    top:-80px;
+    text-align: center;
+    font: oblique bold 120% cursive; 
+}
+#numeroContenidoDondeEstamos{
+    position: relative;
+    width: 350px;
+    height: 200px;
+    left: 15px;
+    top:-95px;
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+#eventosTitulo{
+    position: relative;
+    width: 500px;
+    height: 10%;
+    left: 380px;
+    top:-35px;
+    text-align: center;
+    font: oblique bold 200% cursive;
+}
+
+#eventosUbicacion{
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    left: 90px;
+    padding: 3px 10px;
+    border: rgb(18, 12, 97) 5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#lugarEvento1{
+    position: relative;
+    width: 920px;
+    height: 300px;
+    top:50px;
+    left: 80px;
+    padding: 3px 10px;
+    border: rgb(0, 253, 0) 5px solid;
+    border-radius: 20px;
+}
+
+#imagenEvento1{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    top: 25px;
+    left: 10px;
+}
+
+#tituloEvento1{
+    position: relative;
+    width: 200px;
+    height: 10px;
+    left: 600px;
+    top:-260px;
+    text-align: center;
+    font: oblique bold 150% cursive;  
+}
+
+#contenidoEvento1{
+    position: relative;
+    width: 350px;
+    height: 230px;
+    left: 530px;
+    top:-260px;
+    text-align: center;
+    background-color:greenyellow;
+    opacity:0.7; 
+    padding: 3px 10px;
+    border: white 5px dashed;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+#posicionEvento1{
+    position: relative;
+    top: 0px;
+    width: 10px;
+    height: 10px;
+    background: red;
+}
+
+#fechaEvento1{
+    position: relative;
+    top: 0px;
+    background: red;
+}
+
+#logofundacion{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 250px;
+    border: 7px solid #000000;
+    left: 50px;
+    top:10px;
+}
+#donaciones{
+    position: relative;
+    top: -260px;
+    left: 500px;
+    border: 3px solid gray;
+    border-radius: 40px;
+    width: 650px;
+    height: 250px;
+    text-align: center;
+    opacity: 0.8;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+
+#informacionImportanteTitulo{
+    position: relative;
+    width: 500px;
+    height: 10%;
+    left: 350px;
+    top:-120px;
+    text-align: center;
+    font: oblique bold 200% cursive;
+}
+
+
+#carruselPosicion{
+    position: relative;
+    top: -250px;
+    left: 295px;
+    width: 700px;
+    height: 700px;
+    border: 2px double black;
+}
+
+
+#muroAvisosTitulo{
+    position: relative;
+    width: 500px;
+    height: 10%;
+    left: 380px;
+    top:-180px;
+    text-align: center;
+    font: oblique bold 200% cursive;
+}
+
+#muroAvisosPosicion{
+    position: relative;
+    width: 1100px;
+    height: 580px;
+    border: 2px solid gray;
+    top: -290px;
+    left: 100px;
+    border-radius: 30px;
+    background-image: url("../img/muroLadrillos.jpg");
+}
+
+#aviso1{
+    position: relative;
+    border: 2px solid black;
+    width: 250px;
+    height: 510px;
+    top: 20px;
+    left: 30px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 30px;
+    color: white;
+    background-color: gray;
+    opacity: 0.99;
+    
+}
+
+#imagenAviso1{
+    position: relative;
+    top:10px;
+    width: 220px;
+    height: 220px;
+    border-radius: 30px;
+    border: 2px solid white;
+    
+}
+
+#tituloAviso1{
+    position: relative;
+    width: 100px;
+    height: 10%;
+    left: 55px;
+    top:15px;
+    text-align: center;
+    font: oblique bold 120% cursive;
+    font-weight: 900 ;
+    color: red;
+    
+}
+
+
+#aviso2{
+    position: relative;
+    border: 2px solid black;
+    width: 360px;
+    height: 510px;
+    top: -490px;
+    left: 350px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 30px;
+    color: white;
+    background-color: gray;
+    opacity: 0.99;
+}
+
+#imagenAviso2{
+    position: relative;
+    top:10px;
+    width: 250px;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+#tituloAviso2{
+    position: relative;
+    width: 100px;
+    height: 10%;
+    left: 125px;
+    top:15px;
+    text-align: center;
+    font: oblique bold 120% cursive;
+    font-weight: 900 ;
+    color: red;
+}
+
+#aviso3{
+    position: relative;
+    border: 2px solid black;
+    width: 250px;
+    height: 510px;
+    top: -1000px;
+    left: 800px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 30px;
+    color: white;
+    background-color: gray;
+    opacity: 0.99;
+}
+
+#imagenAviso3{
+    position: relative;
+    top:10px;
+    width: 220px;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+#tituloAviso3{
+    position: relative;
+    width: 100px;
+    height: 10%;
+    left: 75px;
+    top:15px;
+    text-align: center;
+    font: oblique bold 120% cursive;
+    font-weight: 900 ;
+    color: red;
+}
+
+
+@media Screen and (max-width:720px)
+{
+    #menuPrincipal{
+        width: 200px;
+        height: 50px;
+        background: aquamarine;
+        position: relative;
+        top:-0px;
+        left: 18px;
+        border: 3px solid gray;
+    }
+
+    #acercaDeNosotrosImagen{
+        position: relative;
+        top: 3px;
+        bottom: 0px;
+        left: 55px;
+        width: 18%;
+        height: 80%;
+        border-radius: 150px;
+        border: 2px solid green;
+        
+    
+        
+    }
+    
+    #homeImagen{
+        position: relative;
+        left: -35px;
+        top: 3px;
+        bottom: 3px;
+        width: 18%;
+        height: 80%;
+        border-radius: 150px;
+        border: 2px solid green;
+    }
+    
+    #eventosImagen{
+        position: relative;
+        top: 3px;
+        left: 15px;
+        bottom: 3px;
+        width: 18%;
+        height: 80%;
+        border-radius: 150px;
+        border: 2px solid green;
+    }
+    
+    #ubicacionImagen{
+        position: relative;
+        top: 3px;
+        bottom: 3px;
+        left: 20px;
+        width: 18%;
+        height: 80%;
+        border-radius: 150px;
+        border: 2px solid green;
+    }
+    #quienesSomosTitulo{
+        position: relative;
+        width: 210px;
+        height: 10%;
+        left: 15px;
+        top:-10px;
+        text-align: center;
+        font: oblique bold 150% cursive;
+    }
+    
+    #divImagenQuienesSomos{
+        position: relative;
+        width: 220px;
+        height: 220px;
+        top:-55px;
+        left: 5px;
+        border: 5px solid black;
+        
+    }
+    #imagenQuienesSomos{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        
+    
+    
+    }
+    
+    #referenciaImagenQuienesSomos{
+        position: relative;
+        width: 400px;
+        height: 90px;
+        top:5px;
+        left:-10px;
+        
+    }
+    
+    #informacionQuienesSomos{
+        position: relative;
+        top:0px;
+        text-align: center;
+        width: 250px;
+        height: 500px;
+        left:0px;
+        padding-bottom: 50px;
+    }
+
+
+
+    #dondeEstamosUbicadosTitulo{
+        position: relative;
+        width: 300px;
+        height: 10%;
+        left: -30px;
+        top:-15px;
+        text-align: center;
+        font: oblique bold 150% cursive;
+    }
+    
+    #posicionMapa{
+        position: relative;
+        width: 250px;
+        height: 200px;
+        border: 2px solid black;
+    }
+    
+    #mapaImagen{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #posicionTextoDondeEstamos{
+        position: relative;
+        width: 250px;
+        height: 330px;
+        border: 2px solid gray;
+        top: 20px;
+        left: 0px;
+        background-color:#CCEEFF;
+        opacity:0.7; 
+    }
+    
+    #direccionTituloDondeEstamos{
+        position: relative;
+        width: 100px;
+        height: 30px;
+        left: 15px;
+        top:0px;
+        text-align: center;
+        font: oblique bold 120% cursive; 
+    }
+    #direccionContenidoDondeEstamos{
+        position: relative;
+        width: 230px;
+        height: 200px;
+        left: 15px;
+        top:-15px;
+        text-align: center;
+    }
+    
+    #numeroTituloDondeEstamos{
+        position: relative;
+        width: 250px;
+        height: 30px;
+        left: -5px;
+        top:-50px;
+        text-align: center;
+        font: oblique bold 120% cursive; 
+    }
+    #numeroContenidoDondeEstamos{
+        position: relative;
+        width: 230px;
+        height: 200px;
+        left: 15px;
+        top:-65px;
+        text-align: center;
+        font-weight: 900;
+        
+    }
+
+    #eventosTitulo{
+        position: relative;
+        width: 200px;
+        height: 10%;
+        left: 20px;
+        top:-10px;
+        text-align: center;
+        font: oblique bold 150% cursive;
+    }
+    
+    #eventosUbicacion{
+        position: relative;
+        width: 280px;
+        height: 700px;
+        top: -20px;
+        left: -35px;
+        padding: 3px 10px;
+        border: rgb(18, 12, 97) 5px double;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    #lugarEvento1{
+        position: relative;
+        width: 260px;
+        height: 630px;
+        top:20px;
+        left: -5px;
+        padding: 3px 10px;
+        border: rgb(0, 253, 0) 5px solid;
+        border-radius: 20px;
+    }
+    
+    #imagenEvento1{
+        position: relative;
+        width: 250px;
+        height: 150px;
+        top: 25px;
+        left: 10px;
+    }
+    
+    #tituloEvento1{
+        position: relative;
+        width: 200px;
+        height: 10px;
+        left: 20px;
+        top:10px;
+        text-align: center;
+        font: oblique bold 120% cursive;  
+    }
+    
+    #contenidoEvento1{
+        position: relative;
+        width: 230px;
+        height: 365px;
+        left: 0px;
+        top:30px;
+        text-align: center;
+        background-color:greenyellow;
+        opacity:0.7; 
+        padding: 3px 10px;
+        border: white 5px dashed;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    
+    }
+    
+    #posicionEvento1{
+        position: relative;
+        top: 0px;
+        width: 10px;
+        height: 10px;
+        background: red;
+    }
+    
+    #fechaEvento1{
+        position: relative;
+        top: 0px;
+        background: red;
+    }
+
+    #logofundacion{
+        position: relative;
+        width: 250px;
+        height: 250px;
+        border-radius: 250px;
+        border: 7px solid #000000;
+        left: 0px;
+        top:10px;
+    }
+    #donaciones{
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: 3px solid gray;
+        border-radius: 40px;
+        width: 300px;
+        height: 350px;
+        text-align: center;
+        opacity: 0.8;
+        color: #ffffff;
+        background-color: #000000;
+    }
+    
+    
+    
+    #informacionImportanteTitulo{
+        position: relative;
+        width: 300px;
+        height: 10%;
+        left: -20px;
+        top:40px;
+        text-align: center;
+        font: oblique bold 200% cursive;
+    }
+    
+    
+    #carruselPosicion{
+        position: relative;
+        top: -70px;
+        left: -20px;
+        width: 300px;
+        height: 300px;
+        border: 2px double black;
+    }
+    
+    
+    #muroAvisosTitulo{
+        position: relative;
+        width: 200px;
+        height: 10%;
+        left: 20px;
+        top:-10px;
+        text-align: center;
+        font: oblique bold 200% cursive;
+    }
+    
+    #muroAvisosPosicion{
+        position: relative;
+        width: 300px;
+        height: 1780px;
+        border: 2px solid gray;
+        top: -100px;
+        left: -20px;
+        border-radius: 30px;
+        background-image: url("../img/muroLadrillos.jpg");
+    }
+    
+    #aviso1{
+        position: relative;
+        border: 2px solid black;
+        width: 250px;
+        height: 510px;
+        top: 20px;
+        left: 30px;
+        text-align: center;
+        font-weight: 500;
+        border-radius: 30px;
+        color: white;
+        background-color: gray;
+        opacity: 0.99;
+        
+    }
+    
+    #imagenAviso1{
+        position: relative;
+        top:10px;
+        width: 220px;
+        height: 220px;
+        border-radius: 30px;
+        border: 2px solid white;
+        
+    }
+    
+    #tituloAviso1{
+        position: relative;
+        width: 100px;
+        height: 10%;
+        left: 55px;
+        top:15px;
+        text-align: center;
+        font: oblique bold 120% cursive;
+        font-weight: 900 ;
+        color: red;
+        
+    }
+    
+    
+    #aviso2{
+        position: relative;
+        border: 2px solid black;
+        width: 250px;
+        height: 610px;
+        top: 50px;
+        left: 30px;
+        text-align: center;
+        font-weight: 500;
+        border-radius: 30px;
+        color: white;
+        background-color: gray;
+        opacity: 0.99;
+    }
+    
+    #imagenAviso2{
+        position: relative;
+        top:10px;
+        width: 220px;
+        height: 220px;
+        border: 2px solid black;
+        border-radius: 30px;
+    }
+    
+    #tituloAviso2{
+        position: relative;
+        width: 100px;
+        height: 10%;
+        left: 60px;
+        top:15px;
+        text-align: center;
+        font: oblique bold 120% cursive;
+        font-weight: 900 ;
+        color: red;
+    }
+    
+    #aviso3{
+        position: relative;
+        border: 2px solid black;
+        width: 250px;
+        height: 510px;
+        top: 80px;
+        left: 30px;
+        text-align: center;
+        font-weight: 500;
+        border-radius: 30px;
+        color: white;
+        background-color: gray;
+        opacity: 0.99;
+    }
+    
+    #imagenAviso3{
+        position: relative;
+        top:10px;
+        width: 220px;
+        height: 220px;
+        border: 2px solid black;
+        border-radius: 30px;
+    }
+    
+    #tituloAviso3{
+        position: relative;
+        width: 100px;
+        height: 10%;
+        left: 75px;
+        top:15px;
+        text-align: center;
+        font: oblique bold 120% cursive;
+        font-weight: 900 ;
+        color: red;
+    }
+
+}
+
+
+/*Estilo para el fondo de pantalla cuando estamos mostrando la imagen grande*/
+#background {
+    display:none;
+    position: absolute;
+    top:0;left:0;width:100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    background-color: #000;
+    z-index: 1;
+}
+
+/*Estilo para la capa que contendra la imagen grande y la cruz de cerrar*/
+#preview {
+    display: none;
+    position: absolute;
+    width: 960px;
+    height: 370px;
+    border: 1px solid #D8D7D8;
+    background-color: #FFF;
+    box-shadow: 1px 1px 5px #DDD;
+    z-index: 2;
+}
+
+/*Estilo para el contenedor de la imagen grande*/
+#content {
+    width: 100%;
+    height: 100%;
+}
+
+/*Estilo para el boton cerrar*/
+#close {
+    position: absolute;
+    border:0px solid;
+    width:16px;
+    height:16px;
+    right:2px;
+    top:2px;
+    background:url('../img/close.png');
+}
+
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: -39px; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: black;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-instagram {background: #a52e87;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+ 
+	.social ul li a:hover {
+		background: rgb(67, 153, 88); /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    }
+    
