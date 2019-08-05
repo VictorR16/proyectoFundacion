@@ -313,6 +313,14 @@
     text-align: center;
 }
 
+#carruselPosicion{
+    position: relative;
+    top: 0px;
+    left: 245px;
+    width: 700px;
+    height: 700px;
+}
+
 #informacionImportanteTitulo{
     position: relative;
     width: 500px;
@@ -323,12 +331,16 @@
     font: oblique bold 200% cursive;
 }
 
+
+
+
+
 #muroAvisosTitulo{
     position: relative;
     width: 500px;
     height: 10%;
-    left: 330px;
-    top:600px;
+    left: 380px;
+    top:150px;
     text-align: center;
     font: oblique bold 200% cursive;
 }
@@ -338,7 +350,7 @@
     width: 1100px;
     height: 580px;
     border: 2px solid gray;
-    top: 490px;
+    top: 30px;
     left: 100px;
 }
 
@@ -372,11 +384,6 @@
     color: red;
 }
 
-#imagenInformacion1{
-    position: relative;
-    width: 10px;
-    height: 10px;
-}
 
 #aviso2{
     position: relative;
