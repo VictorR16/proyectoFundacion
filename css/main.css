@@ -139,7 +139,7 @@
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
-    height: 1900px;
+    height: 2150px;
     background-image: url("../img/fondoPagina2.jpg");
 }
 #dondeEstamosUbicadosTitulo{
@@ -360,6 +360,8 @@
     border: 2px solid gray;
     top: -290px;
     left: 100px;
+    border-radius: 30px;
+    background-image: url("../img/muroLadrillos.jpg");
 }
 
 #aviso1{
@@ -371,6 +373,11 @@
     left: 30px;
     text-align: center;
     font-weight: 500;
+    border-radius: 30px;
+    color: white;
+    background-color: gray;
+    opacity: 0.99;
+    
 }
 
 #imagenAviso1{
@@ -378,6 +385,9 @@
     top:10px;
     width: 220px;
     height: 220px;
+    border-radius: 30px;
+    border: 2px solid white;
+    
 }
 
 #tituloAviso1{
@@ -390,6 +400,7 @@
     font: oblique bold 120% cursive;
     font-weight: 900 ;
     color: red;
+    
 }
 
 
@@ -402,13 +413,19 @@
     left: 350px;
     text-align: center;
     font-weight: 500;
+    border-radius: 30px;
+    color: white;
+    background-color: gray;
+    opacity: 0.99;
 }
 
 #imagenAviso2{
     position: relative;
     top:10px;
-    width: 220px;
+    width: 250px;
     height: 220px;
+    border: 2px solid black;
+    border-radius: 30px;
 }
 
 #tituloAviso2{
@@ -432,6 +449,10 @@
     left: 800px;
     text-align: center;
     font-weight: 500;
+    border-radius: 30px;
+    color: white;
+    background-color: gray;
+    opacity: 0.99;
 }
 
 #imagenAviso3{
@@ -439,6 +460,8 @@
     top:10px;
     width: 220px;
     height: 220px;
+    border: 2px solid black;
+    border-radius: 30px;
 }
 
 #tituloAviso3{
