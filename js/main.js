@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
     // Funcion que se ejecuta al hacer click sobre una imagen
-    $("#eventosUbicacion img").click(function () {
+    $(".aumentarImagen img").click(function () {
         // Posicionamos las capas
         if (screen.width > 720) {
             $('#background').css('height', $(document).height());
