@@ -361,7 +361,7 @@
     top: -290px;
     left: 100px;
     border-radius: 30px;
-    background-image: url("../img/muroLadrillos.jpg");
+    background-color:rgb(97, 96, 96);
 }
 
 #aviso1{
@@ -375,7 +375,7 @@
     font-weight: 500;
     border-radius: 30px;
     color: white;
-    background-color: gray;
+    background-color: rgb(172, 171, 171);
     opacity: 0.99;
     
 }
@@ -415,7 +415,7 @@
     font-weight: 500;
     border-radius: 30px;
     color: white;
-    background-color: gray;
+    background-color: rgb(172, 171, 171);
     opacity: 0.99;
 }
 
@@ -451,7 +451,7 @@
     font-weight: 500;
     border-radius: 30px;
     color: white;
-    background-color: gray;
+    background-color: rgb(172, 171, 171);
     opacity: 0.99;
 }
 
@@ -801,7 +801,7 @@
         top: -100px;
         left: -20px;
         border-radius: 30px;
-        background-image: url("../img/muroLadrillos.jpg");
+        background-color:rgb(97, 96, 96);
     }
     
     #aviso1{
@@ -815,7 +815,7 @@
         font-weight: 500;
         border-radius: 30px;
         color: white;
-        background-color: gray;
+        background-color: rgb(172, 171, 171);
         opacity: 0.99;
         
     }
@@ -855,7 +855,7 @@
         font-weight: 500;
         border-radius: 30px;
         color: white;
-        background-color: gray;
+        background-color: rgb(172, 171, 171);
         opacity: 0.99;
     }
     
@@ -891,7 +891,7 @@
         font-weight: 500;
         border-radius: 30px;
         color: white;
-        background-color: gray;
+        background-color: rgb(172, 171, 171);
         opacity: 0.99;
     }
     
