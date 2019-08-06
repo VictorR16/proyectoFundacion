@@ -610,7 +610,7 @@
     #posicionTextoDondeEstamos{
         position: relative;
         width: 250px;
-        height: 330px;
+        height: 380px;
         border: 2px solid gray;
         top: 20px;
         left: 0px;
@@ -650,7 +650,7 @@
         width: 230px;
         height: 200px;
         left: 15px;
-        top:-65px;
+        top:-95px;
         text-align: center;
         font-weight: 900;
         
